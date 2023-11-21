@@ -8,21 +8,7 @@ import { Link } from "react-router-dom";
 export const Cover = () => {
   return (
     <>
-      <div className="static top-2 right-2 text-white sm:hidden md:hidden lg:flex justify-end h-0">
-        <Link
-          to="/experience"
-          className="m-3 hover:underline hover:text-blue-600"
-        >
-          Experience
-        </Link>
-        <Link
-          to="/portfolio"
-          className="m-3 hover:underline hover:text-blue-600"
-        >
-          Portfolio
-        </Link>
-      </div>
-      <div className="h-full p-5 md:p-10 flex flex-col justify-evenly shadow-md">
+      <div className="h-full p-5 md:p-10 flex flex-col justify-evenly">
         {/* Profile Pic */}
         <div className="flex items-center justify-center h-1/3 w-auto">
           <div className="bg-slate-300 p-1 rounded-full shadow-md h-full">
@@ -34,7 +20,7 @@ export const Cover = () => {
           </div>
         </div>
         {/* Name & Occupation */}
-        <div className="m-2 flex flex-col items-center align-middle justify-center">
+        <div className="m-2 h-1/6 flex flex-col items-center align-middle justify-center">
           <h1 className="text-5xl text-center text-white p-1 md:text-7xl">
             Christian Faber
           </h1>
