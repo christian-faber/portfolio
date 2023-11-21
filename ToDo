@@ -1,0 +1,16 @@
+Cover:
+  - Configure aspects so they don't change on zoom. Might be better to do 3 different size aspects and leave it there.
+  - Figure out where to put the Top Menu. Does it go on the cover?
+  - Add gradient outline on hover for buttons
+
+Home:
+  - When I update the portfolio array with this app, change the slice to (1,4)
+
+Portfolio:
+  - Map through the array. Include this application in the list.
+  - Create modal to display more information when a project is clicked on.
+
+Experiences:
+  - Change dot location
+  - Make line a left border of container div for this
+  - create gradient outline on hover for Experience cards
