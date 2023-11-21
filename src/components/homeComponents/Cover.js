@@ -38,7 +38,7 @@ export const Cover = () => {
           <h1 className="text-5xl text-center text-white p-1 md:text-7xl">
             Christian Faber
           </h1>
-          <div className="w-4/5 flex items-center justify-between md:w-3/5 lg:justify-center lg:align-middle">
+          <div className="w-4/5 flex items-center justify-evenly md:w-3/5 lg:justify-evenly lg:align-middle">
             <h1 className="text-2xl text-white text-center w-1/3 md:w-2/5 md:text-4xl lg:text-5xl">
               Developer
             </h1>

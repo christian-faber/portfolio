@@ -22,7 +22,7 @@
       "description": "KauaiForward displays the grant opportunities offered by the County of Kauai's Office of Economic Development. It also informs the public of OED's ongoing programs, resources put together for different audiences, and updates from partner organizations.",
       "link": "www.kauaiforward.com",
       "repository": "www.kauaiforward.com",
-      "imgBackgroundStyle": "bg-white",
+      "imgBackgroundStyle": "bg-white p-24",
       "tools": [
         {
           "name": "WordPress",
