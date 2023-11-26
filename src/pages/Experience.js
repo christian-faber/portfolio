@@ -4,10 +4,14 @@ import experience from "../data/experience.json";
 
 export const Experience = () => {
   return (
-    <div className="flex flex-col items-center bg-slate-200">
-      {experience.experiences.map((experience, index) => (
-        <ExperienceCard position={experience} key={index} />
-      ))}
+    <div className="overflow-y-auto h-full">
+      {/* Insert Top */}
+      {/* Experience Cards */}
+      <div className="flex flex-col items-center bg-slate-200 ">
+        {experience.experiences.map((experience, index) => (
+          <ExperienceCard position={experience} key={index} />
+        ))}
+      </div>
     </div>
   );
 };
