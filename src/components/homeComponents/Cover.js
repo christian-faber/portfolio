@@ -3,7 +3,6 @@ import { GrLinkedinOption } from "react-icons/gr";
 import { HiOutlineDevicePhoneMobile } from "react-icons/hi2";
 import { IoCalendarOutline, IoLogoTableau } from "react-icons/io5";
 import { TfiEmail } from "react-icons/tfi";
-import { Link } from "react-router-dom";
 
 export const Cover = () => {
   return (
