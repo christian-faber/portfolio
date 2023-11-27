@@ -13,7 +13,8 @@
           "name": "Wix",
           "badge-location": "wix_logo"
         }
-      ]
+      ],
+      "gallery": ["/image-1.jpeg"]
     },
     {
       "title": "KauaiForward",
@@ -28,7 +29,8 @@
           "name": "WordPress",
           "badge-location": "wordpress_logo"
         }
-      ]
+      ],
+      "gallery": ["/image-1.jpeg"]
     },
     {
       "title": "Economic Dashboard",
@@ -43,7 +45,8 @@
           "name": "Tableau",
           "badge-location": "tableau_logo"
         }
-      ]
+      ],
+      "gallery": ["/image-1.jpeg"]
     },
     {
       "title": "I Am Weekend",
@@ -58,7 +61,40 @@
           "name": "",
           "badge-location": ""
         }
-      ]
+      ],
+      "gallery": ["/image-1.jpeg"]
+    },
+    {
+      "title": "Dev-Island",
+      "photoFileLocation": "logo_devisland.png",
+      "mission": "As my capstone project for the bootcamp, I developed an update of the org website.",
+      "description": "To finish off my Dev-Island bootcamp experience, I took on the challenge of developing their official website for my capstone project. This design is no longer their active site and can only be seen through my github repository.",
+      "link": "www.dev-island.org",
+      "repository": "www.github.com/christian-faber/dev-island.org",
+      "imgBackgroundStyle": "",
+      "tools": [
+        {
+          "name": "React.js",
+          "badge-location": "react_logo"
+        }
+      ],
+      "gallery": ["/image-1.jpeg"]
+    },
+    {
+      "title": "Planets App",
+      "photoFileLocation": "",
+      "mission": "To practice API useEffect, useState, and API fetches, I made a page that fetches information and updates according to each planet.",
+      "description": "This project was an assignment during the Dev-Island bootcamp that required connecting to data from an API. It was my favorite assingment from the bootcamp.",
+      "link": "https://github.com/christian-faber/dev-island-planets",
+      "repository": "https://github.com/christian-faber/dev-island-planets",
+      "imgBackgroundStyle": "",
+      "tools": [
+        {
+          "name": "React.js",
+          "badge-location": "react_logo"
+        }
+      ],
+      "gallery": ["/image-1.jpeg"]
     }
   ]
 }

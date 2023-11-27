@@ -1,16 +1,22 @@
 import React from "react";
 import { ExperienceCard } from "../components/ExperienceCard";
 import experience from "../data/experience.json";
+import { Top } from "../components/Top";
 
 export const Experience = () => {
   return (
-    <div className="overflow-y-auto h-full">
-      {/* Insert Top */}
-      {/* Experience Cards */}
-      <div className="flex flex-col items-center bg-slate-200 ">
-        {experience.experiences.map((experience, index) => (
-          <ExperienceCard position={experience} key={index} />
-        ))}
+    <div className="h-full">
+      <div className="hidden lg:block">
+        <Top title="Experience" />
+      </div>
+      <div className="overflow-y-auto h-full">
+        {/* Insert Top */}
+        {/* Experience Cards */}
+        <div className="flex flex-col items-center mx-2 bg-slate-200 ">
+          {experience.experiences.map((experience, index) => (
+            <ExperienceCard position={experience} key={index} />
+          ))}
+        </div>
       </div>
     </div>
   );

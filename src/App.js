@@ -5,6 +5,7 @@ import { Experience } from "./pages/Experience.js";
 import React from "react";
 import { Ventures } from "./pages/Ventures.js";
 import { MenuButton } from "./components/MenuButton.js";
+import { Top } from "./components/Top.js";
 
 function App() {
   return (
