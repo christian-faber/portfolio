@@ -15,7 +15,7 @@ function App() {
           <MenuButton />
         </div>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="experience" element={<Experience />} />
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="ventures" element={<Ventures />} />
