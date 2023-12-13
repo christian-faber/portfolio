@@ -12,7 +12,7 @@ export const Cover = () => {
         <div className="flex items-center justify-center h-1/3 w-auto">
           <div className="bg-ivory-500 p-1 rounded-full shadow-md h-full">
             <img
-              src="./me.jpeg"
+              src={`${process.env.PUBLIC_URL}/me.jpeg`}
               alt="me"
               className="rounded-full object-cover border-4 border-gold-400 aspect-square h-full"
             />

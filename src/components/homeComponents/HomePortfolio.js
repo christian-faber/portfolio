@@ -35,7 +35,7 @@ export const HomePortfolio = () => {
             className="flex justify-center aspect-square p-1 m-4 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-300 rounded-md"
           >
             <img
-              src={item.photoFileLocation}
+              src={`${process.env.PUBLIC_URL}/${item.photoFileLocation}`}
               alt={item.title}
               className={item.imgBackgroundStyle}
             />
