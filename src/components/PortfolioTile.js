@@ -47,7 +47,7 @@ export const PortfolioTile = ({ item }) => {
         to-green-500 rounded-md relative"
     >
       <img
-        src={`${process.env.PUBLIC_URL}/${item.photoFileLocation}`}
+        src={`./${process.env.PUBLIC_URL}/${item.photoFileLocation}`}
         alt={item.title}
         className={item.imgBackgroundStyle}
       />
