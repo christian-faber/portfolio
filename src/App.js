@@ -10,8 +10,8 @@ import { Top } from "./components/Top.js";
 function App() {
   return (
     <BrowserRouter basename="/">
-      <div className="w-full h-screen bg-gradient-to-r from-purple-500 to-pink-500">
-        <div className="absolute top-3 right-3 lg:hidden z-10 bg-pink-400 rounded-full">
+      <div className="w-full h-screen bg-gradient-to-r from-olive-300 to-olive-400">
+        <div className="absolute top-3 right-3 lg:hidden z-10 bg-olive-300 rounded-full">
           <MenuButton />
         </div>
         <Routes>

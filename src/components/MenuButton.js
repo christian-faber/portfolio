@@ -11,7 +11,12 @@ export const MenuButton = (setTitle) => {
         className="rounded-full flex justify-center 
       items-center"
       >
-        <Hamburger toggle={(isOpen, setOpen)} rounded size={24} color="white" />
+        <Hamburger
+          toggle={(isOpen, setOpen)}
+          rounded
+          size={24}
+          color="ivory-500"
+        />
         <div>
           {isOpen && (
             <SmallSideBar

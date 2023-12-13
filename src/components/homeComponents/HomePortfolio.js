@@ -32,7 +32,7 @@ export const HomePortfolio = () => {
             onClick={handleTouch}
             onMouseEnter={handleHover}
             onMouseLeave={handleLeave}
-            className="flex justify-center aspect-square p-1 m-4 bg-gradient-to-br from-blue-500 via-teal-500 to-green-500 rounded-md"
+            className="flex justify-center aspect-square p-1 m-4 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-300 rounded-md"
           >
             <img
               src={item.photoFileLocation}
@@ -57,7 +57,7 @@ export const HomePortfolio = () => {
       <div className="flex justify-end my-4 md:justify-center lg:justify-center">
         <Link
           to="/Portfolio"
-          className="text-white rounded-xl text-3xl border-white border flex items-center justify-evenly w-1/2 bg-gradient-to-br from-blue-500 to-teal-500 p-2"
+          className="text-white rounded-xl text-3xl border-white border flex items-center justify-evenly w-1/2 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-300 p-2"
         >
           <h2>See More</h2>
         </Link>

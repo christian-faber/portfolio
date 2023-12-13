@@ -1,12 +1,12 @@
 import React from "react";
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa"; // Import any other icons you might need
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import portfolio from "../data/portfolio.json";
 
 export const Modal = ({ showModal, closeModal, modalContent }) => {
-  const title = portfolio.title;
-  const photo = portfolio.photoFileLocation;
-  const links = portfolio.link;
-  const description = portfolio.description;
+  const { title, photoFileLocation, link, description, tools } = modalContent;
+
+  // Check if links object exists
+  const links = link || {};
 
   return (
     <div
@@ -17,7 +17,7 @@ export const Modal = ({ showModal, closeModal, modalContent }) => {
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center">
             <img
-              src={photo}
+              src={photoFileLocation}
               alt={title}
               className="w-12 h-12 mr-4 rounded-full"
             />
