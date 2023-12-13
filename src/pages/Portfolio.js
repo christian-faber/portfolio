@@ -8,7 +8,7 @@ export const Portfolio = () => {
       <div>
         <Link to="/">Home</Link>
         <Link to="/experience">experience</Link>
-        <Link to="/">Home</Link>
+        <Link to="/portfolio">portfolio</Link>
       </div>
       {portfolio.portfolio.map((item) => (
         <PortfolioTile item={item} />
