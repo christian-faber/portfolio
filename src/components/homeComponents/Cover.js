@@ -63,12 +63,17 @@ export const Cover = () => {
               <a
                 href="https://www.linkedin.com/in/christianfaber/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <GrLinkedinOption />
               </a>
             </button>
             <button className="rounded-md shadow-md bg-ivory-200 flex items-center justify-center aspect-square">
-              <a href="https://github.com/christian-faber" target="_blank">
+              <a
+                href="https://github.com/christian-faber"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <BsGithub />
               </a>
             </button>
@@ -76,6 +81,7 @@ export const Cover = () => {
               <a
                 href="https://public.tableau.com/app/profile/christian1024"
                 target="_blank"
+                rel="noreferrer"
               >
                 <IoLogoTableau />
               </a>
